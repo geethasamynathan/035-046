@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script type="text/javascript">  
+            function totalelements()  
+            {  
+            var allgenders=document.getElementsByName("gender");  
+            var options=document.getElementsByName("option");  
+            alert("Total Genders:"+allgenders.length);  
+            alert("Total options :"+options.length)
+            }  
+            </script>     
+    </head>
+    <form>  
+    Male:<input type="radio" name="gender" value="male">  
+    Female:<input type="radio" name="gender" value="female">  
+
+    Question   
+    
+    <input type="radio" name="option" value="Option A">  option A
+    <input type="radio" name="option" value="option B">  option B
+    <input type="radio" name="option" value="Option C">  option C
+     <input type="radio" name="option" value="Option D">  option D
+    
+    <input type="button" onclick="totalelements()" value="Total Genders">  
+    </form>
+    </html>

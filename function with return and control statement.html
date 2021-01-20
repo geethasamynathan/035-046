@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>            
+function checkAge(age) {
+   // return (age>18)? true :confirm('Do you have permission from your parents?');
+    return (age>18) || confirm('Do you have permission from your parents?');
+  /*if (age >= 18) {
+    return true;
+  } 
+  else {
+    return confirm('Do you have permission from your parents?');
+  }*/
+}
+
+let age = prompt('How old are you?', 18);
+
+if ( checkAge(age) ) {
+  alert( 'Access granted' );
+} else {
+  alert( 'Access denied' );
+}
+        </script>
+    </head>
+</html>

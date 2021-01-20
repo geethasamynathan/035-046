@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> registration Form</title>
+    </head>
+    <body>
+    <form>
+        <label for="fname"> FirstName</label>
+        <input type="text" id="fname"></br> 
+        <label for="Gender"> Gender</label>
+        <input type="radio" name="Gender">Male
+        <input type="radio" name="Gender">Female </br>
+        <label for="email">  Mail id</label>  
+        <input type="email" id="email" placeholder="sample@yahoo.com">
+    </br>
+        <lable for="state">select the state</lable>
+        <select>
+            <option>West Bengal</option>
+            <option>Andhra pradesh </option>
+            <option>Telangana </option>
+            <optio>Mp </optio>
+        </select>
+    </br>
+         address : <textarea cols="10" rows="3"></textarea>
+    </br>
+         <label>  Hobbies </label>
+         <input type="checkbox" value="Reading Novels" checked>Reading Novels</br>
+         <input type="checkbox" value="Reading Novels">Reading Novels</br>
+         <input type="checkbox" value="Dancing"> &nbsp;Dancing</br> 
+<label > Enter the DOJ</label>
+<input type="date">
+<label> Upload the Documents</label>
+ <input type="file">
+<br>
+<label> choose the favourite color: </label>
+<input type="color">
+
+<br>
+<label> Enter the Score</label>
+<input type="number" min="65" max="100">
+ <br>
+ <label> Enter the URL of your organization </label>
+ <input type="url">
+ <br>
+ <label>       Contact Number </label>
+ <input type="tel" pattern="[0-9]{10}" required>
+ <input type="image" alt="submit" src="login.jpg" height="30px" width="80px">
+    </form>
+</body>
+</html>
+<!--  
+     pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+-->

@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <script>
+            var a,b,c, d;
+            function showcontent()
+            {
+             a= document.getElementById("inp1").value;
+             b=document.getElementById("inp2").value;
+             c=document.getElementById("inp3").value;   
+               
+            d=a+b+c;
+            console.log(d);
+          //  alert("this is the result"+d);
+          document.getElementById("para1").innerHTML= d;
+            }  
+     
+        </script>
+    </head>
+    <body>
+        <p id="para1">Hello</p>
+        <form>
+            <label for="inp1">Input1</label>
+            <input type="text" id="inp1"/><br>
+            <label for="inp2">Input2</label>
+            <input type="text" id="inp2"/><br>
+            <label for="inp3">Input3</label>
+            <input type="text" id="inp3"/><br>
+            <input type="submit" onclick="showcontent()">The data is:</button>
+           
+            
+            
+        </form>

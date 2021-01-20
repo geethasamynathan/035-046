@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            // global variable scope is throughout the script 
+            let message=" Global message";
+            function demo()
+            {
+                //local varibale  scope only inside the function
+                let msg='Hello, Welcome';
+                document.writeln(msg);
+                //accessing global variable inside the function
+                document.writeln("<br/>Message inside the fucntion= "+message)
+            }
+            demo();
+            document.writeln("<br/> message outside function = "+message);
+            </script>
+
+    </head>
+</html>

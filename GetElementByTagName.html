@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function countPTags()
+            {
+                var totalparagraphs= document.getElementsByTagName("p")
+                alert(" <h1>  totla Paragraphs in this web page is = " +totalparagraphs.length);
+            }
+            function counth2Tags()
+            {   var totalparagraphs= document.getElementsByTagName("h2")
+               alert(" <h1>  totla h2 tahs  in this web page is = " +totalparagraphs.length);
+            }
+        </script>
+    </head>
+    <body>
+        <h2>  Heading</h2>
+        <p> First Para</p>
+        <p> second para</p>
+        <h2> Second Heading</h2> 
+        <p> Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+             Dicta voluptatibus asperiores praesentium tempore saepe ea, non voluptates reprehenderit ad 
+            voluptatem nulla facere ut iusto alias quasi cumque blanditiis eum aspernatur?</p>
+
+            <button onclick="countPTags()"> count p tags</button>
+            <button onclick="counth2Tags()"> count h2 tags</button>
+    </body>
+</html>

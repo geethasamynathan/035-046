@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>pattern attribute</title>
+ <script>
+     function formValidate()
+     {
+         var ctryCode=document.getElementById("countrycode").value
+        if(ctryCode.length ==2 && isNaN(ctryCode))
+        {
+             alert("valid Country code")
+        }
+        else{
+            alert(" country code should be only 2 chars")
+        }
+         }
+     </script>
+   </head>
+   <body> 
+      <h2>Attribute: pattern</h2>
+ 
+      <div style="border:1px solid #ddd; padding: 5px;">
+ 
+         <form name="myForm"  onsubmit="formValidate()">
+            Country code:
+            <!-- <input type="text" name = "countryCode" id="countryCode" pattern="[A-Za-z]{2}"
+              title="Two letter country code"/> -->
+              <input type="text" id="countrycode"/>
+            <br/><br/>
+            <button type="submit">Submit</button>
+         </form>
+ 
+      </div>
+ 
+   </body>
+</html>

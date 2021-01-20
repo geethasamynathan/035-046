@@ -1,0 +1,8 @@
+
+
+    document.write(" Hello  world from external js file")
+
+    function greetme()
+    {
+         alert( "welcome to external js")
+    }

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            document.writeln("<h2> for   Looping Demo </h2>");
+            for(let i=1;i<5;i++) // i is inline variable
+            {
+                document.writeln("<br/>"+i)
+            }
+           // document.writeln( "<br/>  i value outside of the loop is "+i) // error i is not declared 
+let i=900;
+document.writeln( "<br/>  i value outside of the loop is "+i)
+for(;i<=906;i++)
+{
+    document.writeln("<br/>"+i)    
+}
+document.writeln("<h2> While Loop Demo </h2>");
+
+let j=10;
+while(j>5)
+{
+    document.writeln("<br/> "+ j);
+    j--;
+}
+
+document.writeln("<h2> do While Loop Demo </h2>");
+
+let k=20;
+do
+{
+    document.writeln("<br/> "+ k);
+    k--;
+}while(k>15)
+
+        </script>
+    </head>
+</html>

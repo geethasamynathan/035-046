@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            /*
+            // approach 1:
+            function greetMe(name)
+            {
+                document.writeln("Hello "+name);
+            }
+          //  greetMe("Fransy");
+             let greet =greetMe("John");
+             greet();
+             */
+            
+           //approach :2 
+           //function Expression
+        //    let sum= function (num1,num2){return num1+num2;}
+        //   document.writeln(" addition of 34 +12 = " +sum(34,12));
+
+        //   //approach 3:
+        //    let username=prompt("Enter the name");
+
+        //   sayHello(username);
+        //   function sayHello(name)
+        //   {
+        //       document.writeln(` Hello ${name}` )
+        //   }
+          //IIFE
+          //approach:4 
+        //   (function (){
+        //       alert("I am IIFE")
+        //   }) ();
+
+
+          //IIFE example:2
+        /*  var name="geetha";
+          (function (uname){
+             alert ("Hello "+uname)
+          }) (name);
+*/
+          // exmaple for IIFE with Nested Function
+          (function(cname){
+              function displaycompany(companyname){
+                  alert(" company name is "+companyname);
+              }
+              displaycompany(cname);
+          })("Cognizant");
+
+        </script>
+    </head>
+</html>

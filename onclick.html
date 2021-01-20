@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script>
+        function validate(uname,pwd)
+        {
+            console.log("usename = "+uname)
+            console.log("Password = "+pwd)
+            if(uname=="system" && pwd=="Admin")
+            {
+            console.log(" login successful")
+            alert( " Login successful")
+            }
+            else
+            {
+                console.log(" login failed")
+                alert ("Invalid user")
+            }
+        }
+    </script>
+</head>
+<body>
+    <form>
+    <table>
+        <tr>
+            <td> Username</td>
+            <td> <input type="text" id="username"></td>
+        </tr>
+        <tr>
+            <td> password</td>
+            <td> <input type="text" id="password"></td>
+        </tr>
+        <tr>
+            <td><input type="submit" value="login"
+                 onclick="validate(username.value,password.value)"></td>
+            <td><input type="reset" value="reset" /></td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>

@@ -1,0 +1,10 @@
+javascript ==>  client side scripting language.
+mainly used to create a dynamic web pages.
+javascript is case-sesitive lang.
+javascript file should be having the extension .js
+
+we can implement javascript in html documents as well.
+
+javascript object based programming lang.
+
+
